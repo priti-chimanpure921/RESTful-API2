@@ -1,0 +1,15 @@
+.main{
+    color: maroon;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.blog{
+    background-color: beige;
+
+}
+
+.user{
+    color: purple;
+    font-style: italic;
+}
+

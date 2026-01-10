@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h2 class="main">Blog</h2>
+    <div class="blog">
+        <h3 class="user">@User : <%= blog.user %></h3>
+        <p class="content"><b>Content : </b> <%= blog.content %></p>
+    </div>
+    <form action="/blogs">
+        <button>Home</button>
+    </form>    
+</body>
+</html>
